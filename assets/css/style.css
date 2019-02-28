@@ -1,0 +1,50 @@
+body{
+    
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color:black;
+    background-size: auto;
+}
+
+.container{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.btn-success{
+    background-color:green;
+    border-color: black;
+}
+
+.jumbotron{
+    background-color: transparent;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.page1{
+    background-image: url(../images/Orange1.jpg);
+   
+
+}
+
+.page2{
+    background-image: url(../images/game2.jpg);
+
+}
+
+
+
+@media(max-width: 1300px){
+
+
+
+body{
+    background-size: 1300px;
+}
+
+
+}

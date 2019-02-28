@@ -36,6 +36,14 @@ body{
 
 }
 
+.img-body{
+    
+}
+
+img{
+    width: 125px;
+    
+}
 
 
 @media(max-width: 1300px){

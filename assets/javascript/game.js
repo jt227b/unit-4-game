@@ -4,6 +4,9 @@
 Each crystal should have a random hidden value between 1 - 12.    */
 
 
+// Let's Get Started //
+$(document).ready(function(){
+
 
 
 // Variable for the Game//
@@ -22,7 +25,10 @@ var crystalSaul = 0;
 
 function initializeGame(){
     randomNumbers = Math.floor(Math.random() * 120) + 10;
-    
+    crystalMike = Math.floor(Math.random() * 12) + 1;
+    crystalJesse = Math.floor(Math.random() * 12) + 1;
+    crystalWhite = Math.floor(Math.random() * 12) + 1;
+    crystalSaul = Math.floor(Math.random() * 12) + 1;
 }
 
-
+}

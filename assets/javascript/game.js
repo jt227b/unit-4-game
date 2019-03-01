@@ -48,7 +48,7 @@ $(document).ready(function () {
         totalScores += crystalValue
         $("#total-score").text(totalScores);
 
-        //  If,Else Statements  //
+        //  If, Else Statements  //
         if (totalScores === randomNumbers) {
             alert("We're Done When I Say We're Done... You Win!");
             wins++;

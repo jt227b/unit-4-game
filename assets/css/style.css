@@ -14,14 +14,20 @@ body{
     
 }
 
-.imgIntro{
-    text-decoration: none;
+.img-body{
+    
+    
+    
+    display: flex;
+  
 
 }
 
-img{
-    border: 3px solid black;
+#saul{
+    float: right;
 }
+
+
 
 .btn-success{
     background-color:green;
@@ -48,9 +54,7 @@ img{
 
 }
 
-img-body{
-    float: left;
-}
+
 
 
 
